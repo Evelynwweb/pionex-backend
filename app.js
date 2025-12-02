@@ -136,7 +136,7 @@ app.post(
         userId:user._id, token: token
       })
 
-      const verificationLink = `https://www.vaultrisegroup.com/${user._id}/verify/${token}`
+      const verificationLink = `https://www.pionexx-mgt.com/${user._id}/verify/${token}`
 
       // Prepare response data
       const response = {
